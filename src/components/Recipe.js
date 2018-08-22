@@ -1,11 +1,11 @@
 import React from 'react';
 
 function Recipe(props){
-	return (
-		<div className="recipe">
+  return (
+	  <div className="recipe">
 		  <a href={props.href}>{props.title}</a>
-		</div>
-	)
+	  </div>
+  )
 }
 
 export default Recipe;
